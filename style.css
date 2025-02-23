@@ -1,4 +1,3 @@
-/* General Styles */
 @import url(https://db.onlinewebfonts.com/c/9b77a61b70b873a0f298ad6fbc801666?family=RazerF5);
 
 * {
@@ -349,8 +348,6 @@ nav .navbar-container .navbar-logo {
   display: none;
 }
 
-/* Media Queries */
-/* Media Queries */
 @media (max-width: 1160px) {
   .navbar-container {
     height: 3.5rem;
@@ -385,7 +382,7 @@ nav .navbar-container .navbar-logo {
 
   .row-item {
     width: 100%;
-    height: 800px; /* Increase height for mobile view */
+    height: 800px; 
   }
 
   .footer-container {
@@ -438,7 +435,7 @@ nav .navbar-container .navbar-logo {
 
   .row-item {
     width: 100%;
-    height: 800px; /* Increase height for mobile view */
+    height: 800px; 
   }
 
   .footer-section ul {
@@ -466,7 +463,7 @@ nav .navbar-container .navbar-logo {
 
   .row-item {
     width: 100%;
-    height: 800px; /* Increase height for mobile view */
+    height: 800px; 
   }
 
   .footer-section ul {
