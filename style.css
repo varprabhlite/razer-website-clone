@@ -1,0 +1,480 @@
+/* General Styles */
+@import url(https://db.onlinewebfonts.com/c/9b77a61b70b873a0f298ad6fbc801666?family=RazerF5);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "RazerF5";
+}
+
+body {
+  background-color: #222222;
+}
+
+nav {
+  z-index: 20;
+  background-color: black;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+nav .navbar-container .navbar-logo {
+  width: 35px;
+  height: 35px;
+  margin: 0.6rem;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #00ff00;
+}
+
+.navbar-container li, .navbar-container li a {
+  list-style: none;
+  padding: 0 1rem;
+  text-decoration: none;
+  color: #b6b3b1;
+  font-size: 1rem;
+}
+
+.navbar-container li i {
+  padding: 0 1rem;
+}
+
+.valentine-special {
+  background-color: rgb(85, 85, 85);
+  color: white;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+}
+
+.valentine-special a {
+  color: white;
+  text-decoration: none;
+}
+
+.valentine-special a:hover {
+  text-decoration: underline;
+}
+
+.faker-banner {
+  background-image: url(images/faker-the-goat.webp);
+  min-height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.faker-banner .faker-banner-container {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faker-banner .faker-links {
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.8rem;
+  transform: translateX(-1rem);
+}
+
+.faker-banner .faker-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.faker-banner .faker-links a span {
+  color: #00ff00;
+}
+
+.faker-banner .faker-links a:hover {
+  text-decoration: underline;
+}
+
+.faker-banner h1 {
+  font-size: 3.5rem;
+  margin-top: 3rem;
+}
+
+.faker-banner h4 {
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+.pochacco-banner {
+  background-image: url(images/pochacco-banner.webp);
+  height: 90vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.pochacco-banner .pochacco-banner-container {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pochacco-banner h1 {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+}
+
+.pochacco-banner h4 {
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+.pochacco-banner-container span {
+  background-color: #ff9c08;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  padding: 0.2rem 1rem;
+}
+
+.pochacco-banner .pochacco-banner-container a {
+  color: black !important;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.pochacco-banner .pochacco-banner-container a:hover {
+  text-decoration: underline;
+}
+
+.valentines-banner {
+  background-image: url(images/valentines-banner.webp);
+  height: 90vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.valentines-banner .valentines-banner-container {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.valentines-banner h1 {
+  font-size: 3.5rem;
+  margin-top: 3.5rem;
+}
+
+.valentines-banner h4 {
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+.valentines-banner .valentines-banner-container a {
+  color: black !important;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.valentines-banner .valentines-banner-container a:hover {
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 0.6rem;
+  width: 100%;
+}
+
+.row-item {
+  color: white;
+  width: 49.7%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-item h1 {
+  font-size: 2.5rem;
+  margin-top: 3rem;
+}
+
+.row-item h4 {
+  font-size: 1.25rem;
+  margin-top: 0.8rem;
+  font-weight: 400;
+}
+
+.row-item .banner-links {
+  margin-top: 0.8rem;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.row-item .banner-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.row-item .banner-links a:hover {
+  text-decoration: underline;
+}
+
+.row-item .banner-links a span {
+  color: #00ff00;
+}
+
+#razer-wolverine-v3 {
+  background-image: url(images/razer-wolverine-v3.webp);
+}
+
+#razer-blade-16 {
+  background-image: url(images/razer-blade-16.webp);
+}
+
+#sniper-elite {
+  background-image: url(images/sniper-elite.webp);
+}
+
+#razer-x-kuromi {
+  background-image: url(images/razer-x-kuromi.webp);
+}
+
+#razer-chroma {
+  background-image: url(images/razer-handheld-dock-chroma.webp);
+}
+
+#razer-esports {
+  background-image: url(images/razer-esports-line.webp);
+}
+
+.footer-container {
+  margin-top: 0.5rem;
+  background-color: rgb(19, 19, 19);
+  color: #b6b3b1;
+  padding: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin-bottom: 2rem;
+}
+
+.footer-section h6 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+  color: #b6b3b1;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.social-media a {
+  color: #b6b3b1;
+  font-size: 1rem;
+}
+
+.footer-tagline {
+  color: #00ff00;
+  font-size: 1rem;
+  margin-left: 15%;
+}
+
+.navbar-container .fa-bars {
+  display: none;
+}
+
+/* Media Queries */
+/* Media Queries */
+@media (max-width: 1160px) {
+  .navbar-container {
+    height: 3.5rem;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+  .navbar-container li, .navbar-container li a {
+    display: none;
+  }
+
+  #razer-logo-navbar, #shop-cart, .navbar-container .fa-bars {
+    display: block !important;
+    color: #b6b3b1;
+  }
+
+  .navbar-container .navbar-logo {
+    display: block !important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #razer-logo-navbar {
+    height: 2rem;
+    width: auto;
+  }
+
+  .faker-banner h1 {
+    font-size: 3rem;
+  }
+
+  .row-item {
+    width: 100%;
+    height: 800px; /* Increase height for mobile view */
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .footer-section ul {
+    display: none;
+  }
+
+  .footer-section h6 {
+    font-size: 1rem;
+  }
+
+  .social-media {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #social-media-heading {
+    display: none;
+  }
+
+  .footer-tagline {
+    margin-left: 0;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    justify-content: space-between;
+  }
+
+  .navbar-container li, .navbar-container li a {
+    display: none;
+  }
+
+  .navbar-container .navbar-logo,
+  .navbar-container li i {
+    display: block;
+  }
+
+  .faker-banner h1 {
+    font-size: 2rem;
+  }
+
+  .row-item {
+    width: 100%;
+    height: 800px; /* Increase height for mobile view */
+  }
+
+  .footer-section ul {
+    display: none;
+  }
+
+  .footer-section h6 {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-container {
+    justify-content: space-between;
+  }
+
+  .navbar-container li, .navbar-container li a {
+    display: none;
+  }
+
+  .navbar-container .navbar-logo,
+  .navbar-container li i {
+    display: block;
+  }
+
+  .row-item {
+    width: 100%;
+    height: 800px; /* Increase height for mobile view */
+  }
+
+  .footer-section ul {
+    display: none;
+  }
+
+  .footer-section h6 {
+    font-size: 0.8rem;
+  }
+}
+
